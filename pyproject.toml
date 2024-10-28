@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "py-web-07"
+version = "0.1.0"
+description = "Homework for web python 07"
+authors = ["checkmateLL <saoirse.girl47@gamil.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+alembic = "^1.13.3"
+sqlalchemy = "^2.0.36"
+psycopg2 = "^2.9.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
